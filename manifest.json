@@ -2,7 +2,7 @@
     "manifest_version": 3,
     "description": "Simple Korean-English dictionary",
     "name": "Naver Dictionary",
-    "version": "1.0.0",
+    "version": "1.0.1",
     "action": {
         "default_popup": "index.html",
         "default_icon": "icon128.png"
