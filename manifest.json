@@ -3,17 +3,11 @@
     "description": "Simple Korean-English dictionary",
     "name": "Naver Dictionary",
     "version": "1.0.0",
-    "background": {
-        "service_worker": "service-worker.js",
-        "type": "module"
-    },
-    "omnibox": { "keyword": "nt" },
     "action": {
         "default_popup": "index.html",
         "default_icon": "ic_n.png"
     },
     "host_permissions": [
-        "https://www.google.com/",
         "https://*.naver.com/"
     ]
 }
